@@ -1,0 +1,27 @@
+body{
+    font-family: 微软雅黑;
+    color: #333333;
+}
+p{
+    margin: 0px;
+}
+h4{
+    display: inline-block;
+    padding-right: 10px;
+}
+span{
+    margin-right: 30px;
+}
+#header{
+    float: left;
+    color: white;
+    background-color: #65A4FA;
+    margin-right: 20px;
+    padding-top: 50px;
+    width: 150px;
+    height: 800px;
+    text-align: center;
+}
+#cont{
+    float: left;
+}
