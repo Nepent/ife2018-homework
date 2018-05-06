@@ -7,15 +7,17 @@ body{
     color: #333333;
 }
 p{
-    margin: 0;
     display: inline-block;
 }
 h4{
     display: inline-block;
     padding-right: 10px;
 }
-span{
+.cont0 span{
     margin-right: 30px;
+}
+.cont span{
+    font-weight: bold;
 }
 #header{
     background-color: #848484;
@@ -30,7 +32,7 @@ span{
     border-bottom: 1px solid #D6D6D6;
     width: 959px;
 }
-.cont{
+.cont,.cont0{
     width: 960px;
     height: 120px;
     border-top: 1px solid #D6D6D6;

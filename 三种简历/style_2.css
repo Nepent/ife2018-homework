@@ -2,15 +2,9 @@ body{
     font-family: 微软雅黑;
     color: #333333;
 }
-p{
-    margin: 0px;
-}
 h4{
     display: inline-block;
     padding-right: 10px;
-}
-span{
-    margin-right: 30px;
 }
 #header{
     float: left;
@@ -24,4 +18,13 @@ span{
 }
 #cont{
     float: left;
+}
+.cont0 span{
+    margin-right: 30px;
+}
+.cont span{
+    font-weight: bold;
+}
+p{
+    margin: 0;
 }
