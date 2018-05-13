@@ -1,14 +1,14 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Montserrat ExtraLight;
+    font-family: "Montserrat ExtraLight";
     font-weight: lighter;
     box-sizing: border-box;
 }
 h1,h2,h3{
     word-spacing: 5px;
     letter-spacing: 2px;
-    font-family: 方正兰亭超细黑简体;
+    font-family: "方正兰亭超细黑简体";
     color: white;
 }
 a{
@@ -16,10 +16,10 @@ a{
     color: white;
 }
 #banner1{
-    width: 1266px;
+    width: 100%;
     height: 990px;
     background-image: url("images/banner1.png");
-    background-size: 1266px 990px;
+    background-size: 100% 990px;
     text-align: center;
     padding-top: 220px;
 }
@@ -28,11 +28,9 @@ a{
     margin-bottom: 65px;
 }
 #banner1>p{
-    width: 840px;
     font-size: 20px;
     line-height: 32px;
     color: rgba(255,255,255,0.5);
-    margin: 0 auto;
 }
 #create{
     width: 900px;
@@ -43,6 +41,7 @@ a{
 }
 #create h2{
     font-size: 16px;
+    font-weight: bold;
 }
 #create h3{
     margin-top: 15px;
@@ -77,14 +76,14 @@ a{
 
 #info{
     height: 800px;
-    width: 1266px;
+    width: 100%;
     text-align: center;
     padding-top: 89px;
 }
 #info h3{
     font-size: 14px;
-    font-weight: bold;
     color: black;
+    font-weight: bold;
 }
 #info p{
     margin-top: 50px;
@@ -96,10 +95,10 @@ a{
 /*info结束*/
 
 #banner2{
-    width: 1266px;
+    width: 100%;
     height: 800px;
     background-image: url("images/banner2.png");
-    background-size: 1266px 800px;
+    background-size: 100% 800px;
     padding-top: 185px;
     padding-left: 180px;
 }
@@ -138,7 +137,7 @@ a{
 /*banner2结束*/
 
 #txt1{
-    width: 1266px;
+    width: 100%;
     height: 580px;
     text-align: center;
     padding-top: 80px;
@@ -151,12 +150,15 @@ a{
 /*txt1结束*/
 
 #txt2{
-    width: 1266px;
+    width: 100%;
     height: 1000px;
     padding-top: 100px;
-    padding-left: 150px;
     position: relative;
     border-bottom: 1px solid lightgray;
+}
+.content{
+    width: 975px;
+    margin: 0 auto;
 }
 .wen1{
     font-size: 20px;
@@ -179,18 +181,19 @@ a{
     line-height: 28px;
     position: absolute;
     bottom: 150px;
+    margin-right: 80px;
 }
 #img2{
     position: absolute;
     bottom: 100px;
-    right: 150px;
+    margin-left: 430px;
 }
 /*txt2结束*/
 
 #people{
    text-align: center;
     padding-top: 80px;
-    width: 1266px;
+    width: 100%;
     height: 1057px;
     border-bottom: 1px solid lightgray;
 }
@@ -277,11 +280,14 @@ a{
 /*people结束*/
 
 #form{
-    width: 1266px;
+    width: 100%;
     height: 700px;
     padding-top: 70px;
-    padding-left: 180px;
     position: relative;
+}
+#tc{
+    width: 970px;
+    margin: 0 auto;
 }
 #tab{
     width: 470px;
@@ -321,7 +327,7 @@ a{
 #contact{
     position: absolute;
     top: 140px;
-    right: 150px;
+    margin-left: 700px;
     width: 350px;
     height: 560px;
 }
@@ -335,11 +341,14 @@ a{
 /*form结束*/
 
 footer{
-    width: 1266px;
+    width: 100%;
     height: 410px;
     background-color: black;
-    padding-left: 130px;
     padding-top: 88px;
+}
+#center{
+    width: 1010px;
+    margin: 0 auto;
 }
 .link{
     display: inline-block;
