@@ -88,9 +88,18 @@ a{
 #info p{
     margin-top: 50px;
     font-size: 42px;
+    margin-bottom: 85px;
 }
-#info img {
-    margin: 100px 100px 0 100px;
+#info-img{
+    margin: 0 auto;
+    width: 1050px;
+    height: 300px;
+}
+.info-img1{
+    margin: 0 85px 85px 0;
+}
+.info-img2{
+    margin-bottom: 85px;
 }
 /*info结束*/
 
